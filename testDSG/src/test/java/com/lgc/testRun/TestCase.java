@@ -2,12 +2,9 @@ package com.lgc.testRun;
 
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.List;
 
 import org.junit.After;
-import org.junit.AfterClass;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 //import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.*;
@@ -49,16 +46,16 @@ public class TestCase extends CreateMapOfPatterns {
 	public void testCase1() throws FindFailed, InterruptedException,
 			MalformedURLException {
 
-//		App.open("C:\\Landmark\\DSG10ep.3\\LaunchDS.bat");
+		App.open("C:\\Landmark\\DSG10ep.3\\LaunchDS.bat");
 
-//		 startSession.startNewSession(driver);
-//		 startSession.configureSession(driver, "INTSRV", "SALT3D", "LGC",
-//		 "US Oil Field", "Time", "Geoscience");
-//		 startSession.selectTemplate(driver, "Cube", "Map", "Section",
-//		 "Correlation1");
-//
-//		 driver.findElement(By.name("Create Session")).click();
-//
+		 startSession.startNewSession(driver);
+		 startSession.configureSession(driver, "INTSRV", "SALT3D", "LGC",
+		 "US Oil Field", "Time", "Geoscience");
+		 startSession.selectTemplate(driver, "Cube", "Map", "Section",
+		 "Correlation1");
+
+		 driver.findElement(By.name("Create Session")).click();
+
 		 addData.selectDataType(driver, "Wells", "Well Lists", "No");
 //		 addData.selectDataByName(driver, "92_poslog");
 //		 addData.addSelectedDataToTheSession(driver);
