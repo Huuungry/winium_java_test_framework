@@ -23,7 +23,7 @@ import org.sikuli.script.Pattern;
 import org.sikuli.script.Region;
 
 
-public class ViewsActions extends AbstractDSTest {
+public class ViewsActions extends CreateMapOfPatterns {
 	static DesktopOptions option = new DesktopOptions();
 	static WebDriver driver = null;
 

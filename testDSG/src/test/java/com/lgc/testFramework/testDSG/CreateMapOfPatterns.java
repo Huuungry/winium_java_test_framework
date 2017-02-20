@@ -6,7 +6,7 @@ import java.util.Map;
 
 import org.sikuli.script.Pattern;
 
-public class AbstractDSTest {
+public class CreateMapOfPatterns {
 
 	protected Map<String, Pattern> getPatterns(String path) {
 

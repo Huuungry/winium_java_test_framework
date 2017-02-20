@@ -16,14 +16,14 @@ import org.openqa.selenium.winium.WiniumDriver;
 import org.sikuli.script.*;
 import org.sikuli.script.App;
 
-import com.lgc.testFramework.testDSG.AbstractDSTest;
+import com.lgc.testFramework.testDSG.CreateMapOfPatterns;
 import com.lgc.testFramework.testDSG.AddDataWin;
 import com.lgc.testFramework.testDSG.InventoryWinium;
 import com.lgc.testFramework.testDSG.StartSession;
 import com.lgc.testFramework.testDSG.ViewsActions;
 import com.lgc.testFramework.testDSG.*;
 
-public class TestCase extends AbstractDSTest {
+public class TestCase extends CreateMapOfPatterns {
 
 	static DesktopOptions option = new DesktopOptions();
 	static WebDriver driver = null;

@@ -24,7 +24,7 @@ import org.sikuli.script.Region;
 
 
 
-public class AddDataWin extends AbstractDSTest {
+public class AddDataWin extends CreateMapOfPatterns {
 
 	static DesktopOptions option = new DesktopOptions();
 	static WebDriver driver = null;
