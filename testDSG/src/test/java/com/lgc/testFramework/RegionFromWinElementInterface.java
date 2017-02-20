@@ -1,4 +1,4 @@
-package com.lgc.testFramework.testDSG;
+package com.lgc.testFramework;
 
 import java.awt.Rectangle;
 

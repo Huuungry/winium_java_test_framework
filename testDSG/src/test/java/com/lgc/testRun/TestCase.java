@@ -14,14 +14,8 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.winium.DesktopOptions;
 import org.openqa.selenium.winium.WiniumDriver;
 import org.sikuli.script.*;
-import org.sikuli.script.App;
 
-import com.lgc.testFramework.testDSG.CreateMapOfPatterns;
-import com.lgc.testFramework.testDSG.AddDataWin;
-import com.lgc.testFramework.testDSG.InventoryWinium;
-import com.lgc.testFramework.testDSG.StartSession;
-import com.lgc.testFramework.testDSG.ViewsActions;
-import com.lgc.testFramework.testDSG.*;
+import com.lgc.testFramework.*;
 
 public class TestCase extends CreateMapOfPatterns {
 

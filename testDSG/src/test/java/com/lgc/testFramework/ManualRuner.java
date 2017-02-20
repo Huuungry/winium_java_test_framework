@@ -1,4 +1,4 @@
-package com.lgc.testFramework.testDSG;
+package com.lgc.testFramework;
 
 import java.net.MalformedURLException;
 import java.net.URL;
